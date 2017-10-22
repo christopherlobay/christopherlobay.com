@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "christopherlobay.com",
+  "version": "2.0.0",
+  "description": "Personal site of Christopher Lobay",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherlobay/christopherlobay.com.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inline-source": "^3.1.0"
+  }
+}

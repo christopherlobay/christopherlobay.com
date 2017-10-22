@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Mono Bold'), local('RobotoMono-Bold'), url(https://fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59Fz4lIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: #EEE;
+  color: #222;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.333rem;
+  margin: 3em;
+  max-width: 440px;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #00b285;
+  font-size: .9rem;
+  font-weight: 700;
+  margin: 0 -.2rem;
+  padding: 0 .2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+  
+a:hover {
+  background: #00b285;
+  color: #FFF;
+}
+  
+strong {
+  font-weight: 700;
+}
+  
+ul {
+  border-left: .15rem #222 solid;
+  padding-left: 1rem;
+}
